@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon S3 - Formulario</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Hackathon S3 - Formularios</h1>
+    </header>
+    <section>
+        <article>
+            <header>
+                <h2>Formulario de contacto</h2>
+            </header>
+            <form class="bordedotted">
+                <fieldset>
+                    <legend>Información de contacto</legend>
+                    <div>
+                        <label for="name">Nombre:</label>
+                        <input class="red-input" type="text" id="name" pattern="[A-Za-z]">
+                        <label for="apellido">Apellido:</label>
+                        <input class="red-input" type="text" id="apellido" pattern="[A-Za-z]">
+                        <label for="edad">Edad:</label>
+                        <input class="red-input" type="number" id="edad" min="18" max="80">
+                        <label for="sexo">Sexo:</label>
+                        <select class="red-input" name="sexo" id="sexo">
+                                <option>Hombre</option>
+                                <option>Mujer</option>
+                                <option>Otro</option>
+                            </select>
+                        <label for="dni">DNI:</label>
+                        <input class="red-input" type="text" id="dni" min="8" pattern="[A-Za-z0-9]+">
+                        <label for="mail">Email:</label>
+                        <input class="red-input" type="email" id="mail">
+                        <button type="reset">Limpiar</button>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>Derechos Reservados 2020</p>
+    </footer>
+</body>
+
+</html>
