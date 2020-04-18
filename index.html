@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hackathon S3</title>
+    <title>Hackathon S3 - Formulario</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -12,21 +12,32 @@
     <section class="bordedotted">
         <header>
             <h1>Hackathon S3 - Formularios</h1>
+            <h2>Contacto</h2>
         </header>
         <article>
-            <ul>
-                <li>
-                    <a href="tags-form.html">Tag Form</a>
-                </li>
-                <li>
-                    <a href="form.html">Form</a>
-                </li>
-            </ul>
+            <form>
+                <fieldset>
+                    <div>
+                        <input class="red-input" type="text" name="" id="" min="5" pattern="[A-Za-z]+" placeholder="Nombre">
+                        <input class="red-input" type="text" name="" id="" pattern="[A-Za-z]+" placeholder="Apellido"><br><br>
+                        <input class="red-input" type="email" name="" id="" placeholder="Correo Electronico">
+                        <input class="red-input" type="number" name="" id="" pattern="([1-9])+(?:-?\d){9,}" placeholder="Telefono"><br><br>
+                        <textarea name="" id="" cols="30" rows="10" pattern="[a-zA-Z0-9]+" placeholder="Descripcion"></textarea>
+                    </div>
+                </fieldset>
+                <p></p>
+                <fieldset>
+                    <div>
+                        <button type="submit ">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
         </article>
         <footer>
             <p>Hackathon S3 - Paginas de Practica</p>
         </footer>
     </section>
+
 </body>
 
 </html>
